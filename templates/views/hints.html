@@ -1,0 +1,67 @@
+{{define "main"}}
+
+    <div class="container">
+        <div class="container flex justify-center flex-col mb-8">
+            <div class="flex mx-auto mb-4">
+                <h2 class="text-mc-purple text-4xl font-bold">
+                    {{.BoxName}} Hints
+                </h2>
+            </div>
+            <div class="border-t border-mc-light-purple container mb-4"></div>
+            <div class="flex flex-col items-center mx-auto mb-4 space-y-4">
+                <p class="w-fit text-mc-light-black">You can use hints below if you are stuck.</p>
+                <p class="text-mc-light-black">PLEASE NOTE: the <span class="text-red-400">hints below are NOT cyphered</span>, so make sure you expand the one that you need in order not to spoil the other clues 😉</p>
+            </div>
+            <div class="border-t border-mc-light-purple container mb-4"></div>
+        </div>
+        <div class="container flex items-center justify-center flex-col mb-8">
+            {{range $h_index, $hint := .Hints}}
+                <div class="container flex items-center justify-center flex-col">
+                    <div class="text-3xl text-mc-dark-purple font-semibold mb-6">
+                        <h2 class="text-mc-dark-purple">{{$hint.Name}}</h3>
+                    </div>
+                    {{range $s_index, $step := $hint.Steps}}
+                        {{if $step.Name}}
+                            <div class="text-xl text-mc-dark-purple mb-4">
+                                <p class="text-mc-dark-purple">{{$step.Name}}</p>
+                            </div>
+                        {{end}}
+                        <div
+                            id="accordion-collapse-step-{{$s_index}}"
+                            class="w-full gap-2 last:mb-0 mb-2"
+                            data-accordion="collapse"
+                            data-active-classes="text-mc-purple bg-mc-light-purple bg-opacity-10 rounded-t-3xl"
+                            data-inactive-classes="text-mc-purple"
+                        >
+                            {{range $t_index, $tip := $step.Tips}}
+                            <div class="mb-2 border-b-2 border-mc-light-purple">
+                                <h2 id="accordion-collapse-heading-{{$s_index}}-{{$t_index}}">
+                                    <!-- text-mc-purple border border-b border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-100 gap-3 -->
+                                    <button 
+                                        type="button"
+                                        class="flex items-center justify-between w-full p-5 font-bold text-2xl"
+                                        data-accordion-target="#accordion-collapse-body-{{$s_index}}-{{$t_index}}"
+                                        aria-expanded="false"
+                                        aria-controls="accordion-collapse-body-{{$s_index}}-{{$t_index}}"
+                                    >
+                                        <span class="text-mc-purple">{{$tip.Name}}</span>
+                                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-collapse-body-{{$s_index}}-{{$t_index}}" class="grid grid-rows-[0fr] opacity-0 overflow-hidden transition-all" aria-labelledby="accordion-collapse-heading-{{$s_index}}-{{$t_index}}">
+                                    <div class="p-5 mb-2 overflow-hidden">
+                                        <p class="mb-2 text-mc-purple">{{$tip.Text}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {{end}}
+                        </div>
+                    {{end}}
+                </div>
+            {{end}}
+        </div>
+    </div>
+
+{{end}}
