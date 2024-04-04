@@ -1,0 +1,225 @@
+[
+    {
+        "name": "Envelop #1",
+        "steps": [
+            {
+                "name": "Double sided photo of the hall",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find the differences between the two photos and make a word from the letters in squares with differences."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Twelve. One and two."
+                    }
+                ]
+            },
+            {
+                "name": "Laminated photo",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Enlighten the photo with a flashlight."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Ghost has a hat and a cane."
+                    }
+                ]
+            },
+            {
+                "name": "Plan of the castle, floor 1 and 2",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Following the noise draw paths along the first and second floor on a house plan."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Triangle and square."
+                    }
+                ]
+            },
+            {
+                "name": "Room layouts",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble the layout of the room and make holes in the window."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Direct a flashlight towards the window from the designated points on the lawn, and follow the beam."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Big Ben and the Statue of Liberty."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the discs in their correct positions on the board."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Rotate each disc until two correct symbols align."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Take films with letters HELP and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find words on the box lid that are hidden in book titles, and cross them out."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Draw a route using the words: ROSE, JAPAN, CAMEL, SATURN, MICHELANGELO, YELLOW, TROUSERS, LEMON, FEBRUARY, and PARIS."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Align the spiritual board with the box lid and attach the wooden triangle on top. Follow the drawn route."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Take films with the letters FAMILY and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "name": "Family tree",
+                "tips": [
+                    {
+                        "name": "William Berrington",
+                        "text": "The ancestor of the family."
+                    },
+                    {
+                        "name": "Anna Berrington",
+                        "text": "The wife of the ancestor of the family."
+                    },
+                    {
+                        "name": "Emma Belows",
+                        "text": "Daughter of Edna Brown."
+                    },
+                    {
+                        "name": "Marie Gerald",
+                        "text": "Daughter of Earl Berrington."
+                    },
+                    {
+                        "name": "Ernest Berrington",
+                        "text": "Son of Earl Berrington."
+                    },
+                    {
+                        "name": "Arthur Berrington",
+                        "text": "Brother of Eva Badley."
+                    },
+                    {
+                        "name": "Robert Wilson",
+                        "text": "Son of Elizabeth Wilson."
+                    },
+                    {
+                        "name": "Portrait 1",
+                        "text": "Edward Berrington smokes."
+                    },
+                    {
+                        "name": "Portrait 2",
+                        "text": "James Berrington is in military uniform."
+                    },
+                    {
+                        "name": "Portrait 3",
+                        "text": "Albert Wilson wears glasses."
+                    }
+                ]
+            },
+            {
+                "name": "Ghosts",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Use the ghost figures."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Place the ghost figures next to the corresponding family member on the family tree. Point the flashlight at the ghosts from the right places to get shadows."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Place the ghosts labeled 1.1, 1.2, 1.3, 1.4 on the ovals near Elizabeth Wilson, her daughter, her younger son, and older grandson. Shine the flashlight from point #1 onto the ghosts."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "1.1 Elizabeth Wilson,  1.2 Edna Brown, 1.3 Robert Wilson, 1.4 Carl Wilson."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "2.1 James Berrington, 2.2 Edward Berrington, 2.3 Arthur Berrington."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "3.1 Frances Dickinson, 3.2 Clara Hill, 3.3 Ernest Berrington, 3.4 Marie Gerald."
+                    },
+                    {
+                        "name": "Tip 7",
+                        "text": "4.1 Albert Wilson, 4.2 Grace Wilson, 4.3 Emma Bellows."
+                    },
+                    {
+                        "name": "Tip 8",
+                        "text": "Shadows: zero, cat, club, statue of Christ. Put extra slats on the board with the discs and get four letters."
+                    },
+                    {
+                        "name": "Tip 9",
+                        "text": "LIZA. Use films and a chest."
+                    },
+                    {
+                        "name": "Tip 10",
+                        "text": "LIZA - one of the family members."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Nine hundred twenty eight. Use this code to open the chest."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chest",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Use the family tree to identify the real criminal."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Woman with EB initials and she smokes."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Gather films with letters EDNA and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,279 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Take a closer look at the organisms. Consider the theme of the box to choose the correct ones."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Vampires were involved here. Select four living creatures that suck blood."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Mosquito, bat, leeches, tick."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Transfer the elements of vampire DNA to the large spiral. Read the word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TOXIN. Take films with letters TOXIN and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You need the prescribed medications."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "They are elements of the periodic table."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Find the element by number in the table and see its abbreviation. For each patient, form a word from the prescribed medications."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Iron and astatine. Find the resulting elements in the table again and look at the abbreviations."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FEAT. Take films with the letters FEAT and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Each exposition is dedicated to some monster. Define it."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Hall 1: Death\nHall 2: Werewolf\nHall 3: Frankenstein\nHall 4: Dragon"
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Note the tickets' numbers."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "The number of digits in the ticket equals the number of letters in the hero's name. The units indicate which letters you need."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "Take the answers and place them in the center of the halls to get patterns.\n1: hat\n2: owl\n3: risk\n4: dog"
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "The resulting patterns match the ornaments on the walls. Find the appropriate letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SHOW. Take films with the letters SHOW and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Match the letters on the hatch with the pattern on the envelope."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Spiral ridges indicate the correct letters."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Rest in peace."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is RIP. Take films with the letters RIP and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Letter E spins."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SPINE."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TOMB (how to open the coffin)",
+        "steps": [
+            {
+                "name": "I - Runes around the coffin",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the runes around the coffin to match the stonework."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Place the coffin aligning the arrows opposite each other. Read the directions at the bottom and the steps on the right."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "You have one rune with the image of a candle. The answer is candle."
+                    }
+                ]
+            },
+            {
+                "name": "How to solve the clue",
+                "tips": [
+                    {
+                        "name": "Rule 1",
+                        "text": "Initial position - arrow on the coffin points to the top rune with 'Arrow'"
+                    },
+                    {
+                        "name": "Rule 2",
+                        "text": "Text in the bottom - direction and number of cards to move, text on the right side of the coffin - action to perform in the current position. For example, in the initial position bottom text says that you need to move the coffin 7 cards counterclockwise. After you do this you read text on the right which is 'Remove the card'. The coffin arrow indicates to rune 'Cross' so you need to remove it."
+                    },
+                    {
+                        "name": "Rule 3",
+                        "text": "Skip empty slots when moving the coffin and count only the slots with runes.\nRunes should be removed in the following order:\n1. Cross\n2. All red\n3. Bird\n4. Tooth and spider\n5. All black\nThe last rune left is Candle - the answer for this clue."
+                    }
+                ]
+            },
+            {
+                "name": "II - Ceiling",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Connect the phases of the Moon in sequence, starting with the Waxing Crescent."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "You get a crown."
+                    }
+                ]
+            },
+            {
+                "name": "III - Walls",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You need the crosses on the walls. They point to the letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Triangle."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Answer",
+                        "text": "Rotate the crosses on the coffin (candle, crown, triangle) and then open it."
+                    }
+                ]
+            },
+            {
+                "name": "The contents of the coffin",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble a skeleton. A cross and three parts of the body are left."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Extra body parts form the word - lie."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Use the cross to unscrew the coffin from the bottom of the box."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Select false statements at the bottom of the coffin."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "Make a word from the letter-numbering of statements."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is ACHE. Take films with the letters ACHE and attach to the envelope #7."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Patient medical cards from the second envelope will help you."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Mark the items on the antidote sheet that were prescribed for the woman and the child."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The children's antidote is marked in the stars, while the women's is marked in blue."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "The male antidote is marked in blue and written in the stars."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "The male antidote is elements one, one, eight. Use a periodic table."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "Two hydrogen atoms and one oxygen."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is WATER."
+                    }
+                ]
+            }
+        ]
+    }
+]

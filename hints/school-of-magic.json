@@ -1,0 +1,298 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "There are symbols on the owl's collar. Transfer them onto the envelope."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Unfilled parts make the numbers."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You have got three numbers. You need three stamps."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Water, fire, air. What is missing?"
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is EARTH. Take films with letters EARTH and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "name": "Feather",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Where could the feather be found? Examine the objects around this place."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Cage, feather, fire, ash."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Answer is phoenix."
+                    }
+                ]
+            },
+            {
+                "name": "Spider",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find two places where the spider lived."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Where does the web reach? Make a word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is troll."
+                    }
+                ]
+            },
+            {
+                "name": "Portraits",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find the places where the portraits hung."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Portraits hung over other elements."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Woman-fish, man-horse."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is mermaid and centaur."
+                    }
+                ]
+            },
+            {
+                "name": "Students",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Match the coats of arms on the students' robes and the footprints on the floor."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Follow the three sets of footprints that lead from one door to three other doors, matching each set of footprints with the corresponding coat of arms on the students' robes."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is pixy."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Mark off the letters of all the answers you have already found in the magic ball, and use the remaining letters to form a word."
+                    },
+                    {
+                        "name": "answer",
+                        "text": "The answer is GNOME. Take films with the letters GNOME and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Determine four spells that have been used."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Leviotium, Bombardo, Freezeo, Freedomus."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Determine the wand motions for the corresponding spells."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Combinations of wand motions make letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is LUCK. Take films with the letters LUCK and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "name": "Ladder",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Fold the ladder down like an accordion. Attach the ladder to the castle."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Look at the objects from above and from the side - you should see two symbols."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Skull and mushroom."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Poisonous Mushroom - Toadstool."
+                    }
+                ]
+            },
+            {
+                "name": "Window",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Four colours are indicated by the stained glass window."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "You'll need Beginner's guide to wand motions. Determine the required spell."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The Flydraforci spell contains an ingredient for the potion."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Dragonfly."
+                    }
+                ]
+            },
+            {
+                "name": "Room",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the avatars of the students in the holes on the floor."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Follow the direction of the wands to find the symbols."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Eight, leg, water."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Octopus."
+                    }
+                ]
+            },
+            {
+                "name": "Roof",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The numbers on the tiles represent the number of dark cells in the column."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The missing dark cells are shown on the second side of the roof."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Gather all of the dark cells together on one side to reveal a symbol."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is heart."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Write down all the ingredients in a circle. Take the letters that the vertices point towards."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is STONE. Take films with the letters STONE and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Slide the crystal along the walls of the school."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The crystal points to the wall behind which the key is hidden."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Chamber of Secrets",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Use the magic wand in the Secret room."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Insert the magic wand into the holes in the floor and reveal the required letters."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Use the pencil."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Rub the last envelope to reveal the hidden spell."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TRUE."
+                    }
+                ]
+            }
+        ]
+    }
+]

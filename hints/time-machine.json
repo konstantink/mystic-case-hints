@@ -1,0 +1,317 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Cut out the geometric shapes from the layout sheet."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Fold the shapes so that the straight lines form a continuous path."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "What building did you end up with?"
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "This is Big Ben."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "You've already encountered Big Ben in this box. What time does the clock show now?"
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "There are letters on the clock face too."
+                    },
+                    {
+                        "name": "Tip 7",
+                        "text": "You need the letters indicated by the clock hands."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TEA. Take films with letters TEA and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "name": "Stage #1 - Mazes",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Navigate through each maze and retrieve two sequences of words that correspond to the correct route."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The words correspond to the symbols on the time machine."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Using the sequences of words that were obtained, thread the ropes on the time machine through the corresponding holes."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The threaded ropes creates the numbers 2047."
+                    }
+                ]
+            },
+            {
+                "name": "Stage #2 - Gears",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Insert the gears correctly. The first and the last gear should point to the clock."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Set in series the correct numbers on the first gear, and see the letters on the last one."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is ATOM. Take films with letters ATOM and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "There are two gray shapes on the inside of the box. Using the puzzle pieces, reproduce these shapes, and put them on the layout."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The symbols on the puzzle parts correspond to the drawings on paper squares."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The red and black pointers, which are labeled with numbers, indicate the number of points in each sector of the layout where a paper square should be placed."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "You need four light bulbs, to which both the red and black wires fit, without interrupting along the way."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is LINK. Take films with the letters LINK and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Insert the wooden parts into the time machine."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Connect the rubber bands to each of the two pins, the sum of the numbers of which is fifty or seventy. There are thirteen such pairs."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You got four letters - M C M L."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "These are roman numerals. On the inner sticker in the box there are rules for converting Roman numbers to Arabic."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "One thousand nine hundred and fifty."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "Scroll the gears and get the word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FLIGHT. Take films with the letters FLIGHT and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "name": "Point 1",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Combine the symbols on the time machine into six groups of four symbols of the same kind. Each group has an extra element."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Groups: transport, letters, signs, tools, light sources, shapes."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Extra elements: airplane, letter Q, question mark, shovel, light bulb, circle."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "In the professor’s project, the extra symbols correspond to the necessary letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SCHEME."
+                    }
+                ]
+            },
+            {
+                "name": "Point 2",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "What fuel is used in the time machine?"
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "In your time it is raisins, but what was it in the past?"
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is GRAPE."
+                    }
+                ]
+            },
+            {
+                "name": "Point 3",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Align the new wood piece with any of the old combed gears."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Empty space forms shapes."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TETRIS."
+                    }
+                ]
+            },
+            {
+                "name": "Point 4",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Using the professor's chart as reference, recreate the details of Big Ben with precision."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "You already saw this drawing finished in your time."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Red lines indicate the correct letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is MINUS."
+                    }
+                ]
+            },
+            {
+                "name": "Point 5",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Lay out the calendar sheets in the order of the days of the week."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "You got a famous numeral sequence."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is PI."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Write the answers to each point of the plan on the corresponding tapes, then cut them out."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Insert the cut tapes into the holes in the time machine."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Align the pattern on the tapes with the pattern on the time machine to determine the letters you need."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SETUP. Take films with the letters SETUP and attach to the envelope #6."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Replace the gear on the time machine."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "You need the year where the Professor lives."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Year - two thousand and forty-seven."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is BOUND. Take films with the letters BOUND and attach to the envelope #7."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Make the corresponding calculations according to the task."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SIX."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,16 +1,16 @@
 package main
 
 type Level struct {
-	Name  string
-	Steps []Sublevel
+	Name  string     `json:"name"`
+	Steps []Sublevel `json:"steps"`
 }
 
 type Sublevel struct {
-	Name string
-	Tips []Hint
+	Name string `json:"name"`
+	Tips []Hint `json:"tips"`
 }
 
 type Hint struct {
-	Name string
-	Text string
+	Name string `json:"name"`
+	Text string `json:"text"`
 }

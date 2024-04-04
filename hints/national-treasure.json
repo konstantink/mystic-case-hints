@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "On the bookmark - the code for the text in the book."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Numbers mean page, line and word."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Greece, thunder, God, lightning."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is ZEUS. Take films with letters ZEUS and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The front part of the frame is removable."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Flip the painting over and use a coin to identify the required letters."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You got the letters mmseuu."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Museum and pyramid."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Louvre. Take films with letters LOUVRE and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "name": "#1 manuscript",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Cut the edge of the manuscript along the line."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "You can see a word on the end of the manuscript."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Mull."
+                    }
+                ]
+            },
+            {
+                "name": "#2 spots",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "There are spots on the manuscript pages."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Transfer all the spots onto a piece of paper using carbon paper."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is York."
+                    }
+                ]
+            },
+            {
+                "name": "#3 tunnel",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble a model using four wooden pieces."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Attach the model to the center-spread of the manuscript."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The holes in the model reveal the British flag on the left and the symbol of France on the right."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Channel Tunnel."
+                    }
+                ]
+            },
+            {
+                "name": "#4 drawings",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "There are drawings in the manuscript, choose the correct ones."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The required drawings are under a lock with a key and behind a closed door."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Stone and circle."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Stonehenge."
+                    }
+                ]
+            },
+            {
+                "name": "#5 secret symbol",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The symbol sketch somehow repeats the turn of the painting."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The dots in the symbol indicate the required letters on the back of the painting."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Glasgow."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach panels with letters and numbers to the frame and insert the map into it."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Mark all the received points on the map and get the answer from the letters on the frame."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is GLOBE. Take films with the letters GLOBE and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The swords fit the holes in the tunnel."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The shapes on the swords match the shapes of the holes in the tunnel."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Insert all the swords with the number one into the required holes. You will see the first letter in the tunnel."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SCONE. Take films with the letters SCONE and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The hole in the chest will help to determine what a, b, c, d are equal to."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "a = three, b = one, c = five, d = two. Replace the values on page nineteen and solve the puzzle."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The code for the chest is three seven two."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Apply a stencil to the pages five and eighteen."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "Cut the book in the middle and rearrange the pages in the required order."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "A new word was formed at the fore edge of the book."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is MAN."
+                    }
+                ]
+            }
+        ]
+    }
+]

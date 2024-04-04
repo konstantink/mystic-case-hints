@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The bottom of the black box moves."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Using the symbols at the bottom of the black box, solve the words under the UFO models."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The word under the first model is oxygen."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "You need three UFO models as in photos."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "Three words you need are space, nucleus, tail. What unites them?"
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is COMET. Take films with letters COMET and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Peel off the sticker from the bottom of the black box."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Use moveable bottom of the box. You can see a letter in its hole."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The bottom can be inserted in four different directions."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is LUXE. Take films with the letters LUXE and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "name": "Alien identikit",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Put the three correct parts of the identikit on a sheet on the board then look around the edge."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is PORTAL."
+                    }
+                ]
+            },
+            {
+                "name": "Deformed badge",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "On the badge reverse side you can see the word stretched vertically."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is MIX."
+                    }
+                ]
+            },
+            {
+                "name": "UFO landing side",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Move the UFO film vertically at the landing site to read the letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is DWARF."
+                    }
+                ]
+            },
+            {
+                "name": "UFO part",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place eight screws with the appropriate cap size onto the UFO part. The lines that connect the screws form a shape."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is STAR."
+                    }
+                ]
+            },
+            {
+                "name": "Crop circles",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach the mirror to the dark lines in the photo with crop circles to see five letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is WHITE."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Follow the route of red threads and collect the word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is PROXIMA. Take films with the letters PROXIMA and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "name": "Black helm",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Align the black helm with the similar drawing on the box lid."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Turn the helm in accordance with the instructions in the task. Get a seven-letter word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is NETWORK."
+                    }
+                ]
+            },
+            {
+                "name": "Dials",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You need a panel with dials on the box lid."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Draw the clock hands on the dial in accordance with the time given in the instructions."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is UNIT."
+                    }
+                ]
+            },
+            {
+                "name": "Fragments",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach the fragments of the radar to the appropriate places on the dashboard."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The same fragments are used several times."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Determine the names of the obtained constellations using the map of the starry sky."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Locate the symbols that correspond to the names of the constellations on the dashboard."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FAIL."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach films with the words you received to the corresponding facets of the black box."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The code from the black box is one six nine."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Black box",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Search the contents of the ball."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Insert the screws into the appropriate holes in the black box lid."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You only need to consider the symbols that correspond to screws with nuts."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is JOIN. Take films with the letters JOIN and attach to the envelope #6."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Video calling",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The fingers of an alien on each screen press a button on the keyboard."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is LIFE."
+                    }
+                ]
+            }
+        ]
+    }
+]

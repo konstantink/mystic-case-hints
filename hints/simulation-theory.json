@@ -1,0 +1,397 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Stickers on the laptop will help to guess the name."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The stickers on the laptop are all related to elements of a book."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "A cat, a white rabbit, a clock, a bitten mushroom, a tea party, a suit of hearts."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Alice’s Adventures in Wonderland."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is ALICE. Take films with letters ALICE and attach to the “input box” #two."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find all pictures with cars. They form the first letter."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The cars form the letter h."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The traffic light and bicycle pictures form the second and third letters, respectively."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Iron and astatine. Find the resulting elements in the table again and look at the abbreviations."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is HOT. Peel off the sticker from the laptop screen"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Each highlighted paragraph on the screen has a word that you can denote with a symbol."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Identify four symbols you need and find them on your keyboard."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Symbols in the text: percent, dollar, factorial (exclamation mark), star (asterisk)."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Look for the numbers that are printed on the same keys as the symbols you need."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is five four one eight."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Open the red envelope to continue the game."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Since you have chosen the color red, select the option that corresponds with red in order to proceed with the correct path."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Choose the option associated with the color red based on the following clues: red logo (Coca-cola), red planet (Mars), red associated color of the car (Ferrari), and red suit (Diamonds)."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is OKAY. Take films with the letters OKAY and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "name": "Diagram",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Build the diagram by filling in the rectangles."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Look at the diagram and find the corresponding area in the city image on the box."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "There is only one letter in the matching section."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The letter you need is K."
+                    }
+                ]
+            },
+            {
+                "name": "Board Game",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The numbers in the squares indicate the angle of the line in the circle."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Having correctly assembled eight pieces of the puzzle, you got the image."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You have the cube."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Find the cube in the city on the box."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "There is letter A on the cube."
+                    }
+                ]
+            },
+            {
+                "name": "Computer Chip",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Locate a construction site in the city that matches the shape of the chip."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "There is only one letter in this section."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The letter you need is R."
+                    }
+                ]
+            },
+            {
+                "name": "Key Box",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Check the key box. If the key is missing, the guest is in their room and their light is on."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Hotel rooms are from the second to the fifth floor."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Find a building in the city where the lights are on according to the occupied rooms."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Here is letter B."
+                    }
+                ]
+            },
+            {
+                "name": "City Traffic Map",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Transport runs along the dotted lines. Draw a route for each individual vehicle number."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Transport route number one forms letter S. The second is letter P, the third is I, the fourth is R, the fifth is E."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Make a word from the five letters you got. This is the element you need in the city on the box."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The word is spire. The letter you need is E."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Solve each stage to identify five required letters on the buildings of the city."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is BREAK."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6.1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Something strange. You seem to have already seen the sixth envelope."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "There is a feeling that you saw the same situation."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is DEJA VU."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6.2",
+        "steps": [
+            {
+                "name": "Virus",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Draw the lines along the cells in the indicated directions. The beginning is indicated by a dot."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Starting from the dot, draw a line five cells down, one diagonal to the lower left corner, etc."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TROJAN. Enter it into the cells of the cube component # nine."
+                    }
+                ]
+            },
+            {
+                "name": "Black Piece",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Examine the bottom of the laptop."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Combine the holes on the black piece with the screws on the bottom of the laptop to reveal one letter at a time. Repeat this process to read all six letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is SCRIPT. Enter it into the cells of the cube component # eight."
+                    }
+                ]
+            },
+            {
+                "name": "Binary Code",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Examine the binary code. Look for letters hidden among the numbers."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The number of times a letter appears consecutively in the binary code indicates its index number in the answer."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is UPDATE. Enter it into the cells of the cube component # two."
+                    }
+                ]
+            },
+            {
+                "name": "Key",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You have a key on the board."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The squares in the key represent the three letters that make up the word."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You need a keyboard. Find the buttons \"K\", \"E\", \"Y\"."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Locate the letters 'K', 'E', and 'Y' on the keyboard. Then, use the directional arrows shown on the key picture to find the adjacent letters for each of the three letters. This will give you the word you need."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FORMAT. Enter it into the cells of the cube component # three."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage - Cube",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "At each stage of the task there is an image of a cube part, in which you need to enter the answer."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "After you have entered all four answers — assemble the cube."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "The numbers on the assembled cube should be located in the same way as in the diagram."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "In the assembled cube, the arrows point to the required four letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is CORE."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the cube into the center of the diagram. You only need the lines that continue the edges of the cube."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Upper left corner: there are two necessary lines - BC and BD."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "In the place where the line BC enters (column four) contacts B and C should be closed. Connect them with a line SEGMENT using a marker. Repeat the same process for all other lines that come out of the edges of the cube."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "You have received several rectangles with lines. You have similar attributes."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "These are films with letters. Find four films that have lines matching those in the rectangles."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is LOAD."
+                    }
+                ]
+            }
+        ]
+    }
+]

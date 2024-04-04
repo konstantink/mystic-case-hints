@@ -1,0 +1,259 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The ship sailed from Italian city and spent ten days en route. Then, it arrived at port #6."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Find the end point of the appropriate route."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Route from Naples: Athens, Lisbon, Antwerp, Amsterdam, London, Dover. Take films with letters DOVER and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "name": "Newspaper",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The crossword puzzle indicates the suspect in the photograph."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The suspect who is wearing a hat is Frank Wilson."
+                    }
+                ]
+            },
+            {
+                "name": "Identity cards",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Filled IDs have fold lines."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Fold the blank ID template along the fold line to reveal the letter."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The suspect is Carlo Ricci."
+                    }
+                ]
+            },
+            {
+                "name": "Wardrobe",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the magnifying glass on the wardrobe doors and read the words in a circle."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Find an object in the open wardrobe that matches the colour on the door."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Identify the name of the cabin occupant who owns the following items: trap, gun, binoculars, and knife."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The suspect is Robert Hunter."
+                    }
+                ]
+            },
+            {
+                "name": "Writers",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Draw images of a waning moon, a pencil, a hammer, and a slingshot."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The waning moon has a shape that is similar to the letter C."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The suspect connected with a city is Jack London."
+                    }
+                ]
+            },
+            {
+                "name": "Dancing men",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Do the wooden puzzle to get a three-by-three grid."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Determine what shape the person from the passenger list should be in the last cell."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The suspect is Steven Murray."
+                    }
+                ]
+            },
+            {
+                "name": "Final stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Find five suspects on the list and assign the alphabet letter according to the numbering."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is BINGO. Take films with the letters BINGO and attach to the envelope #3."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Insert the wooden tokens of the suspects into the ship layout to understand the correspondence of names and cabins."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "List all suspects on the table based on the concierge notes and the location of the people in the cabins."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "See Suspects details below."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "There are letters below the cabins on the ship. Cross out two innocent people."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TRY. Take films with the letters TRY and attach to the envelope #4."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Examine the evidence board with a red lens magnifying glass."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Place clues on the board: number on the clue = number on the board that can be seen through a magnifying glass."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Connect lines of evidence belonging to each individual suspect."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Lines form letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is COP. Take films with the letters COP and attach to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Only one suspect can go to the crime scene without witnesses along the way."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Follow the right path to collect the letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is CRIME. Take films with the letters CRIME and attach to the envelope #6."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6 (small box)",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Use the box and word card to create a set expression."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Think outside the box."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Write a set expression in the circles on the box lid."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Selected circles form a word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is NEXT. Take films with the letters NEXT and attach to the envelope #7."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Use the magnifying glass."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Place the magnifying glass on the compass and turn to match the direction of the route."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Letters are visible in the hole in the handle of the magnifier. Desired directions - NE, N, E, SE."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is BALI."
+                    }
+                ]
+            }
+        ]
+    }
+]

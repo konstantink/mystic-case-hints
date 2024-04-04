@@ -1,0 +1,346 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "What do you see inside the bottle?"
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Identify the only island that has all three of the bottle elements."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Sand, shell and sunflower."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is TOP. Take films with letters TOP and attach them to the tag on the bottle."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bottle #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Wrap the note around the bottle."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Connect the end of the note to the word \"Alec\" and read the resulting word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is HOT. Peel off the sticker from the laptop screen"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Follow the route described on the map from the stone to the hut, picking up letters along the way."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is HOME."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope with a Star",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The points of the star resemble the wigwams."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Attach a star to each wigwam. The arrow will point to the desired object."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You received five items - a bonfire, a skull, a starfish, a shovel, and a chest. Convert each item into a letter using the matrix provided on the envelope."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FLAME. Attach to the envelope with a star."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope with an Octagon",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the octagon in the center of the map and read the first word in the holes. Rotate the octagon to reveal the remaining seven words."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Write the words you obtained into the circles on the envelope, matching each word with its corresponding number."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "For each pair of words, select a word that connects them in meaning. Continue until you reach the central answer word."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Lightning + Rain = STORM. Attach to the envelope with an octagon."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope with an Circle",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach the circle to the lake in a way that duplicates the eyes on the envelope."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The stones on the lakeside point to the letters."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You get the word tree. Attach the circle to the envelope. The trees point to the correct letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is FISH. Attach to an envelope with a circle."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Final Stage",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Answer",
+                        "text": "Take the films from each of the three envelopes and attach them to the envelope #5."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "name": "Spinning Decoder",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Connect the base, pin, octagon, circle, and star into a single structure."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "For each of the tasks (I, II, III) set a certain relative position of the octagon and the circle."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "Align the lotus symbol on the octagon with the letter on the circle highlighted in red in the word lotus.|I: T|II: O|III: S"
+                    }
+                ]
+            },
+            {
+                "name": "I",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Start with the symbol above the matrix circle."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Find and cross out all the cells with the triangle symbol in the matrix circle."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "You get an arrow. Cross out all the cells with the arrow symbol."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "You get the letter o. Cross out all the cells with the letter o."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "You get: arrow -> letter O -> desired character."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "Place the combination on the spinning decoder. The points of the star indicate the letters of the answer."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer to the first stage is THREE."
+                    }
+                ]
+            },
+            {
+                "name": "II",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "What do you see in the picture?"
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "They are nail, palm and arms."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "These words have other meanings. Find them on the octagon."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Use the spinning decoder according to the lotus instructions. The symbols will point to letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The second stage answer is SIX."
+                    }
+                ]
+            },
+            {
+                "name": "III",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Only four of the seven tokens are correct."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Idioms with colour and object will help you."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Black sheep, white elephant, blue moon, golden handshake."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Use the spinning decoder according to the lotus instructions. The symbols will point to the letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer to the third stage is FIVE."
+                    }
+                ]
+            },
+            {
+                "name": "Final Stage",
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You get: I — THREE, II — SIX, III — FIVE.  Тhree hundred sixty five."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is YEAR."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Attach the squares to the map so that you get a coherent picture."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Follow the path from the hut to the volcano cave and collect the letters along the way."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is IDOL."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble the totem and the spinning decoder. Place it in the centre of the map so that the desired rune points to the north."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Identify three correct totem deities."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Place the totem on the map in the required direction. Which rune of the octagon does the arrow of the star point to?"
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Find the obtained rune on the totem itself. What part of the totem is it on? Identify the letter from the matrix."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is GOD."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #8",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Wipe the totem wings with a wet wipe."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "The scales appeared on the right wing, the sword on the left."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "What do such symbols represent?"
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is JUSTICE."
+                    }
+                ]
+            }
+        ]
+    }
+]

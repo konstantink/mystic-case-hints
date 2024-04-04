@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Envelope #1",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1, letter 1",
+                        "text": "Emojis hint at a fairy tale; identify the item from its title."
+                    },
+                    {
+                        "name": "Tip 1, letter 2",
+                        "text": "Shade all areas with the number eight."
+                    },
+                    {
+                        "name": "Tip 1, letter 3",
+                        "text": "It's the shape of the images that matters, not their meanings."
+                    },
+                    {
+                        "name": "Tip 2, letter 1 answer",
+                        "text": "Little Red Riding Hood."
+                    },
+                    {
+                        "name": "Tip 2, letter 2 answer",
+                        "text": "Dog."
+                    },
+                    {
+                        "name": "Tip 2, letter 3 answer",
+                        "text": "The images form the word - coconut."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "\"Move\" each gift along the sorting belt, choosing the correct path at the junctions."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "The gift route forms letters."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is VIP. Take films with letters VIP and attach to the envelope #2."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #2",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You need information on Partington's letters from Glasgow spanning 1956 to 1958."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "In each section, pinpoint the boxes likely to hold the relevant data."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Line up the cabinets to reveal a seamless pattern of the marked boxes."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is KEY."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #3",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Scan the markings and get three characteristics for each letter: colour, size, weight."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Attach the scanner to the outline marking. You need visible symbols."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Colour: Red, yellow, blue. Use the colour mixing rule. Number 1 means that the colour is used, 0 - not.\nSize: Use the \"Envelope Sizes\" table to determine the size of the letters.\nWeight: 1 - Christmas tree, 2 - snowman, 3 - sock, 4 - mitten, 5 - ball, 6 - bell, 7 - star, 8 - cane, 9 - candle."
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Letter 1: orange, C5, 8g.\nLetter 2: green, C6, 3g.\nLetter 3: blue, E65, 5g."
+                    },
+                    {
+                        "name": "Tip 5",
+                        "text": "Check where each letter ends up when sent through the pneumatic mail system."
+                    },
+                    {
+                        "name": "Tip 6",
+                        "text": "All the letters were directed to the ninth reindeer."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Rudolph."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #4",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble all three toys using the parts. Determine what the third toy is."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is ROCKET."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #5",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "The letters along the route form the phrase: “Santa's favourite entrance”."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is CHIMNEY."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #6",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Place the stickers in the right places to answer the crossword puzzle questions. Don't forget about the house on the box lid."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Flags: under the shelf with a steam locomotive.\nChristmas stocking: by the fireplace in the house that is on the lid of the box.\nStack of Books: on the bookshelf.\nCup: on the chest of drawers next to the blue chair.\nStar: on the tree in the house that is on the lid of the box.\nBucket: on the snowman’s head that is on the box lid.\nHorse: in the room with a horseshoe and a stack of hay.\nRocket: in the room with the moon and stars outside the window.\nSleds: in the house with the ski and skate."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Write your answers in the circles, starting at the arrow.\n1. Window\n2. Candle\n3. Cat\n4. Orange\n5. Cactus\n6. Adventure\n7. Vase\n8. Biscuit\n9. Icicle"
+                    },
+                    {
+                        "name": "Tip 4",
+                        "text": "Make a word by unscrambling the letters in the highlighted circles."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is WINTER."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #7",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "Assemble the plywood tree."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "On Grandpa's gifts: heart = horse, star = rocket, snowflake = sled."
+                    },
+                    {
+                        "name": "Tip 3",
+                        "text": "Set the tree on the spiral from the previous task. Count the specified number of symbols and note the letter in the circle beneath the symbol."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is Claus."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Envelope #8",
+        "steps": [
+            {
+                "tips": [
+                    {
+                        "name": "Tip 1",
+                        "text": "You need a tree on the lid of the box."
+                    },
+                    {
+                        "name": "Tip 2",
+                        "text": "Pierce the bulbs. The holes form a symbol."
+                    },
+                    {
+                        "name": "Answer",
+                        "text": "The answer is CANDLE."
+                    }
+                ]
+            }
+        ]
+    }
+]
