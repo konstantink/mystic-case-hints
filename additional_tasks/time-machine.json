@@ -1,0 +1,68 @@
+{
+    "image": "/images/tmaddtask.jpg",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "Use the part of the time machine that have numbers on it."
+                        },
+                        {
+                            "name": "Hint 1.2",
+                            "text": "Connect the pairs of numbers from the image with rubber bands."
+                        },
+                        {
+                            "name": "Hint 1.3",
+                            "text": "You get 4 symbols."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "TRIANGLE, EQUAL SIGN, SQUARE, RECTANGLE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "Symbols are on the time machine."
+                        },
+                        {
+                            "name": "Hint 2.2",
+                            "text": "Place the time machine on the Project plan (Point 1) and determine the necessary letters."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "GRAM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters GRAM."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "MAGIC"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

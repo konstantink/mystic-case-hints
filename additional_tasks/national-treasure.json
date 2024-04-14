@@ -1,0 +1,60 @@
+{
+    "text": "Eye, feather, flower, hourglass",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "Find the corresponding images in the Manuscript."
+                        },
+                        {
+                            "name": "Hint 1.2",
+                            "text": "You need the numbers of the pages."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "8, 9, 14, 20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "Use the table in the Introduction to get letters from these numbers."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "HINT"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters HINT."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "HOMLES"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "image": "/images/lostislandaddtask.jpg",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "Use the map with islands to locate the four islands with the same names as shown in the image."
+                        },
+                        {
+                            "name": "Hint 1.2",
+                            "text": "You need elements from these islands."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "CACTUS YURT PINE SEAGULL"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "You have already seen these elements on the envelope with a star."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "VLAD"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters VLAD."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "DRACULA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{{define "feedback_form"}}
+
+    <div class="container flex flex-col text-mc-purple mb-14">
+        <form hx-post="/api/v1/htmx/feedback">
+            <div class="container mb-8">
+                <div class="mb-3">
+                    How difficult was the {{.BoxName}} box for you?
+                </div>
+                <div class="flex md:flex-row flex-col">
+                    {{template "difficulty_field"}}
+                </div>
+            </div>
+            <div class="container mb-6 last:mb-0">
+                <div class="mb-3">
+                    <label for="like_most">
+                        What did you like most in the {{.BoxName}} box?
+                    </label>
+                </div>
+                <div class="form-contro">
+                    <textarea class="border-3 focus-visible:outline-none focus-visible:drop-shadow-black focus-visible:drop-shadow-xl focus-visible:ring-gray-200 rounded-2xl focus-visible:border-gray-200 p-2 w-full h-32" name="like_most" id="like_most"></textarea>
+                </div>
+            </div>
+            <div class="container mb-6 last:mb-0">
+                <div class="mb-3">
+                    <label for="like_most">
+                        What was your reason to order the {{.BoxName}} box?
+                    </label>
+                </div>
+                <div class="form-contro">
+                    <textarea
+                        class="border-3 focus-visible:outline-none focus-visible:drop-shadow-black focus-visible:drop-shadow-xl focus-visible:ring-gray-200 rounded-2xl focus-visible:border-gray-200 p-2 w-full h-32 placeholder:text-mc-light-purple"
+                        name="reason_to_buy"
+                        id="reason_to_buy"
+                        placeholder="For example: looking for something interesting to do in the evening / looking for something to do with the family / as a birthday gift / ...etc"
+                        aria-label="What was your reason to order the {{.BoxName}} box"
+                    ></textarea>
+                </div>
+            </div>
+            <div class="container mb-8">
+                <div class="mb-3">
+                    How likely you order next Mystic Case box?
+                </div>
+                <div class="flex md:flex-row flex-col">
+                    {{template "next_box_field"}}
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="uppercase tracking-wider font-extrabold text-2xl bg-mc-light-green px-10 py-6 rounded-full">Submit</button>
+            </div>
+        </form>
+    </div>
+
+{{end}}
+
+
+{{define "difficulty_field"}}
+    
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="difficulty-1" name="difficulty" type="radio" value="1" required>
+        <label for="difficulty-1" class="radio-label">1 (Easy)</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="difficulty-2" name="difficulty" type="radio" value="2" required>
+        <label for="difficulty-2" class="radio-label">2</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="difficulty-3" name="difficulty" type="radio" value="3" required>
+        <label for="difficulty-3" class="radio-label">3</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="difficulty-4" name="difficulty" type="radio" value="4" required>
+        <label for="difficulty-4" class="radio-label">4</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="difficulty-5" name="difficulty" type="radio" value="5" required>
+        <label for="difficulty-5" class="radio-label">5 (Hard)</label>
+    </div>
+
+{{end}}
+
+
+{{define "next_box_field"}}
+
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="next-box-no" name="next_box" type="radio" value="no" required>
+        <label for="next-box-no" class="radio-label">Probably not</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="next-box-maybe" name="next_box" type="radio" value="maybe" required>
+        <label for="next-box-maybe" class="radio-label">Maybe</label>
+    </div>
+    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+        <input id="next-box-yes" name="next_box" type="radio" value="yes" required>
+        <label for="next-box-yes" class="radio-label">I'm interested</label>
+    </div>
+
+{{end}}

@@ -1,33 +1,63 @@
 {{define "main"}}
 
-    <main class="container max-w-full">
-        <div class="w-full bg-white text-mc-purple">
-            <div class="container flex justify-center flex-col md:px-0 px-4 md:pt-20 pt-10">
-                <div class="flex mx-auto mb-8">
-                    <h2 class="text-4xl font-bold">
-                        {{.BoxName}} Hints
-                    </h2>
-                </div>
-                <div class="border-t border-mc-light-purple container mb-4"></div>
-                <div class="flex flex-col items-center mx-auto mb-4 space-y-4">
-                    <p class="w-fit">You can use hints below if you are stuck.</p>
-                    <p>PLEASE NOTE: the <span class="text-red-400">hints below are NOT cyphered</span>, so make sure you expand the one that you need in order not to spoil the other clues 😉</p>
-                </div>
-                <div class="border-t border-mc-light-purple container mb-4"></div>
-            </div>
+    <div class="container md:px-0 px-8 flex flex-col justify-center items-center text-center">
+        <div class="container flex justify-center items-center text-mc-purple pt-16 mb-10">
+            <h2 class="text-4xl font-bold">
+                {{.BoxName}} additional task
+            </h2>
         </div>
-        <div class="container max-w-full flex items-center justify-center flex-col">
-            {{range $h_index, $hint := .Hints}}
-                <div class="container max-w-full pt-8 flex items-center justify-center flex-col pb-4 px-4">
+    
+        <div class="border-t border-mc-light-purple mb-4 w-full"></div>
+    
+        <div class="container flex flex-col justify-center items-center text-mc-purple mb-4">
+            <p class="tracking-wide mb-4">
+                To find the topic of one of our Mystic Case boxes solve a 3 step puzzle.
+            </p>
+            <p class="tracking-wide mb-2">
+                <span class="text-xl font-bold">Step 1:</span>
+            </p>
+            {{if .Task.Text}}
+                {{if eq (length (split .Task.Text)) 1}}
+                    <p class="tracking-wide mb-4 text-xl">
+                        {{.Task.Text | safeHTML}}
+                    </p>
+                {{else}}
+                    <ul class="mb-4 text-left relative text-xl">
+                        {{range $st_index, $subtask := split .Task.Text}}
+                            <li class="mc-bullet mb-2">{{$subtask}}</li>
+                        {{end}}
+                    </ul>
+                {{end}}
+            {{else if .Task.Image}}
+                <img class="mb-2" src="{{.Task.Image}}" alt="ufo-additional-task" />
+            {{end}}
+            <p class="tracking-wide mb-10">
+                Note: you will need the props from the box to solve additional task
+            </p>
+            <p class="tracking-wide mb-4">
+                Good luck and see you on the next case 😉
+            </p>
+        </div>
+    
+        <!-- <div class="border-t border-mc-light-purple container mb-4"></div> -->
+    </div>
+
+    <div class="container max-w-full bg-mc-purple md:px-4 px-0 py-8 mb-16">
+        <div class="container md:px-0 px-8 flex flex-col justify-center items-center text-white">
+            <h2 class="uppercase tracking-wider text-4xl font-bold">Hints</h2>
+        </div>
+        <div class="container max-w-full flex items-center justify-center flex-col text-white">
+            {{range $h_index, $hint := .Task.Level}}
+                <div class="container max-w-full pt-8 flex items-center justify-center flex-col pb-4 px-8">
                     <div class="container flex justify-center items-center flex-col">
                         <div class="text-3xl font-semibold mb-6">
-                            <h2 class="text-mc-purple">{{$hint.Name}}</h3>
+                            <h2>{{$hint.Name}}</h3>
                         </div>
                         {{range $s_index, $step := $hint.Steps}}
                             <div class="flex items-center justify-center w-full flex-col mb-12">
                                 {{if $step.Name}}
                                     <div class="flex w-full justify-center items-center text-2xl font-semibold mb-4">
-                                        <p class="text-mc-purple">{{$step.Name}}</p>
+                                        <p>{{$step.Name}}</p>
                                     </div>
                                 {{end}}
                                 <div class="w-full">
@@ -44,7 +74,7 @@
                                                     :aria-expanded="expanded"
                                                     aria-controls="accordion-collapse-body-{{$s_index}}-{{$t_index}}"
                                                 >
-                                                    <span class="text-mc-purple">{{$tip.Name}}</span>
+                                                    <span>{{$tip.Name}}</span>
                                                     <svg class="fill-[#B3D138] shrink-0 ml-8" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
                                                         <rect y="12" width="28" height="4" rx="2" class="transform origin-center transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
                                                         <rect y="12" width="28" height="4" rx="2" class="transform origin-center rotate-90 transition duration-200 ease-out" :class="{'!rotate-180': expanded}" />
@@ -60,7 +90,7 @@
                                             >
                                                 <div class="overflow-hidden">
                                                     {{range $tt_index, $text := split $tip.Text}}
-                                                        <p class="pb-3 text-mc-purple">{{$text}}</p>
+                                                        <p class="pb-3">{{$text}}</p>
                                                     {{end}}
                                                 </div>
                                             </div>
@@ -73,9 +103,21 @@
                 </div>
             {{end}}
         </div>
+    </div>
 
-        {{template "last_word"}}
-        
-    </main>
+    <div class="w-full container md:px-0 px-8">
+        <div class="container flex justify-center items-center text-center text-mc-purple mb-12">
+            <h2 class="text-4xl font-bold">
+                Please let us know your thoughts about the {{.BoxName}} box 😊
+            </h2>
+        </div>
+        <dic class="container">
+            <div class="flex flex-col">
+                {{template "feedback_form" .}}
+            </div>
+        </dic>
+    </div>
+
+    {{template "last_word"}}
 
 {{end}}

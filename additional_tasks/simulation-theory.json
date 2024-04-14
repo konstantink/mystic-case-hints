@@ -1,0 +1,60 @@
+{
+    "image": "/images/simulationaddtask.jpg",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "What words do these symbols mean?"
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "UPDATE, VIRUS, FORMAT"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "You’ve already seen these words on the wooden cube."
+                        },
+                        {
+                            "name": "Hint 2.2",
+                            "text": "Find these words on wooden cube and take the numbers of the corresponding cube parts."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "293"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with numbers 293."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "ISLAND"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

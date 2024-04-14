@@ -1,0 +1,64 @@
+{
+    "image": "/images/draculaaddtask.jpg",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "Set the crosses on the coffin lid so that the arrows point to the corresponding time."
+                        },
+                        {
+                            "name": "Hint 1.2",
+                            "text": "What symbols do they point to?"
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "MAN, MOON, TORCH"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "Use the wall inside the box."
+                        },
+                        {
+                            "name": "Hint 2.2",
+                            "text": "Each symbol points to the letter. You need 3 letters."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "GUY"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters GUY."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "GHOST"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

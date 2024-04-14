@@ -14,3 +14,9 @@ type Hint struct {
 	Name string `json:"name"`
 	Text string `json:"text"`
 }
+
+type Task struct {
+	Text  string  `json:"text"`
+	Image string  `json:"image"`
+	Level []Level `json:"hints"`
+}

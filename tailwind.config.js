@@ -25,6 +25,9 @@ module.exports = {
       fontFamily: {
         pangram: ["Pangram"]
       },
+      borderWidth: {
+        "3": "0.2rem",
+      },
       borderRadius: {
         "5xl": "2.5rem",
       },

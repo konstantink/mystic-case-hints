@@ -1,0 +1,60 @@
+{
+    "image": "/images/ufoaddtask.jpg",
+    "hints": [
+        {
+            "name": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "Find the UFOs in Classification and define 3 words."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "FLAG, HEART, SQUARE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "Find these words inside the box."
+                        },
+                        {
+                            "name": "Hint 2.2",
+                            "text": "You need a Control Panel on the box lid and letters near the words."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "DOG"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters DOG and attach them to the second part of the additional task image."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "TIME TRAVEL"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "text": "Ship's brake, Diogenes' house, horse's footwear, layout of the Earth",
+    "hints": [
+        {
+            "text": "Step 1",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 1.1",
+                            "text": "There are 4 words hidden in Step 1. Ship’s brake is the anchor, ..."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "ANCHOR, BARREL, HORSESHOE, GLOBE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Step 2",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 2.1",
+                            "text": "Find these items on the ship’s plan."
+                        },
+                        {
+                            "name": "Hint 2.2",
+                            "text": "You need the letters in the rooms with the items."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "USER"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Step 3",
+            "steps": [
+                {
+                    "tips": [
+                        {
+                            "name": "Hint 3.1",
+                            "text": "Use films with letters USER."
+                        },
+                        {
+                            "name": "Answer",
+                            "text": "SIMULATION"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
