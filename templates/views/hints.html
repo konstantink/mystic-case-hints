@@ -2,7 +2,7 @@
 
     <main class="container max-w-full">
         <div class="w-full bg-white text-mc-purple">
-            <div class="container flex justify-center flex-col md:px-0 px-4 md:pt-20 pt-10">
+            <div class="container flex justify-center text-center flex-col xl:px-0 px-8 xl:pt-20 pt-10">
                 <div class="flex mx-auto mb-8">
                     <h2 class="text-4xl font-bold">
                         {{.BoxName}} Hints
@@ -18,7 +18,7 @@
         </div>
         <div class="container max-w-full flex items-center justify-center flex-col">
             {{range $h_index, $hint := .Hints}}
-                <div class="container max-w-full pt-8 flex items-center justify-center flex-col pb-4 px-4">
+                <div class="container max-w-full pt-8 flex items-center justify-center flex-col pb-4 xl:px-0 px-8">
                     <div class="container flex justify-center items-center flex-col">
                         <div class="text-3xl font-semibold mb-6">
                             <h2 class="text-mc-purple">{{$hint.Name}}</h3>

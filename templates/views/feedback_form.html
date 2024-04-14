@@ -6,7 +6,7 @@
                 <div class="mb-3">
                     How difficult was the {{.BoxName}} box for you?
                 </div>
-                <div class="flex md:flex-row flex-col">
+                <div class="flex lg:flex-row flex-col">
                     {{template "difficulty_field"}}
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="mb-3">
                     How likely you order next Mystic Case box?
                 </div>
-                <div class="flex md:flex-row flex-col">
+                <div class="flex lg:flex-row flex-col">
                     {{template "next_box_field"}}
                 </div>
             </div>
@@ -55,23 +55,23 @@
 
 {{define "difficulty_field"}}
     
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="difficulty-1" name="difficulty" type="radio" value="1" required>
         <label for="difficulty-1" class="radio-label">1 (Easy)</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="difficulty-2" name="difficulty" type="radio" value="2" required>
         <label for="difficulty-2" class="radio-label">2</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="difficulty-3" name="difficulty" type="radio" value="3" required>
         <label for="difficulty-3" class="radio-label">3</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="difficulty-4" name="difficulty" type="radio" value="4" required>
         <label for="difficulty-4" class="radio-label">4</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="difficulty-5" name="difficulty" type="radio" value="5" required>
         <label for="difficulty-5" class="radio-label">5 (Hard)</label>
     </div>
@@ -81,15 +81,15 @@
 
 {{define "next_box_field"}}
 
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="next-box-no" name="next_box" type="radio" value="no" required>
         <label for="next-box-no" class="radio-label">Probably not</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="next-box-maybe" name="next_box" type="radio" value="maybe" required>
         <label for="next-box-maybe" class="radio-label">Maybe</label>
     </div>
-    <div class="radio md:mr-6 last:md:mr-0 mb-4 last:mb-0">
+    <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="next-box-yes" name="next_box" type="radio" value="yes" required>
         <label for="next-box-yes" class="radio-label">I'm interested</label>
     </div>

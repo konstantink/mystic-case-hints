@@ -127,7 +127,7 @@ func boxAdditionalTask(boxName string) http.HandlerFunc {
 			return
 		}
 
-		tpl.ExecuteTemplate(os.Stdout, "base", context)
+		// tpl.ExecuteTemplate(os.Stdout, "base", context)
 		tpl.ExecuteTemplate(w, "base", context)
 	}
 }

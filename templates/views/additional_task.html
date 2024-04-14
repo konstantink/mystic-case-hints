@@ -1,6 +1,6 @@
 {{define "main"}}
 
-    <div class="container md:px-0 px-8 flex flex-col justify-center items-center text-center">
+    <div class="container lg:px-0 px-8 flex flex-col justify-center items-center text-center">
         <div class="container flex justify-center items-center text-mc-purple pt-16 mb-10">
             <h2 class="text-4xl font-bold">
                 {{.BoxName}} additional task
@@ -9,7 +9,7 @@
     
         <div class="border-t border-mc-light-purple mb-4 w-full"></div>
     
-        <div class="container flex flex-col justify-center items-center text-mc-purple mb-4">
+        <div class="container flex flex-col justify-center items-center text-mc-purple mb-4 xl:px-0 px-8">
             <p class="tracking-wide mb-4">
                 To find the topic of one of our Mystic Case boxes solve a 3 step puzzle.
             </p>
@@ -42,8 +42,8 @@
         <!-- <div class="border-t border-mc-light-purple container mb-4"></div> -->
     </div>
 
-    <div class="container max-w-full bg-mc-purple md:px-4 px-0 py-8 mb-16">
-        <div class="container md:px-0 px-8 flex flex-col justify-center items-center text-white">
+    <div class="container max-w-full bg-mc-purple xl:px-4 px-0 py-8 mb-16">
+        <div class="container lg:px-0 px-8 flex flex-col justify-center items-center text-white">
             <h2 class="uppercase tracking-wider text-4xl font-bold">Hints</h2>
         </div>
         <div class="container max-w-full flex items-center justify-center flex-col text-white">
@@ -66,13 +66,13 @@
                                             <h2>
                                                 <!-- text-mc-purple border border-b border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-100 gap-3 -->
                                                 <button 
-                                                    id="accordion-collapse-heading-{{$s_index}}-{{$t_index}}"
+                                                    id="accordion-collapse-heading-{{$h_index}}-{{$s_index}}-{{$t_index}}"
                                                     type="button"
                                                     class="flex items-center justify-between w-full font-bold text-xl py-2"
-                                                    data-accordion-target="#accordion-collapse-body-{{$s_index}}-{{$t_index}}"
+                                                    data-accordion-target="#accordion-collapse-body-{{$h_index}}-{{$s_index}}-{{$t_index}}"
                                                     @click="expanded = !expanded"
                                                     :aria-expanded="expanded"
-                                                    aria-controls="accordion-collapse-body-{{$s_index}}-{{$t_index}}"
+                                                    aria-controls="accordion-collapse-body-{{$h_index}}-{{$s_index}}-{{$t_index}}"
                                                 >
                                                     <span>{{$tip.Name}}</span>
                                                     <svg class="fill-[#B3D138] shrink-0 ml-8" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
@@ -82,11 +82,11 @@
                                                 </button>
                                             </h2>
                                             <div
-                                                id="accordion-collapse-body-{{$s_index}}-{{$t_index}}"
+                                                id="accordion-collapse-body-{{$h_index}}-{{$s_index}}-{{$t_index}}"
                                                 role="region"
                                                 class="grid overflow-hidden transition-all duration-300 ease-in-out"
                                                 :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'"
-                                                aria-labelledby="accordion-collapse-heading-{{$s_index}}-{{$t_index}}"
+                                                aria-labelledby="accordion-collapse-heading-{{$h_index}}-{{$s_index}}-{{$t_index}}"
                                             >
                                                 <div class="overflow-hidden">
                                                     {{range $tt_index, $text := split $tip.Text}}
@@ -105,7 +105,7 @@
         </div>
     </div>
 
-    <div class="w-full container md:px-0 px-8">
+    <div class="w-full container xl:px-0 px-8">
         <div class="container flex justify-center items-center text-center text-mc-purple mb-12">
             <h2 class="text-4xl font-bold">
                 Please let us know your thoughts about the {{.BoxName}} box 😊
