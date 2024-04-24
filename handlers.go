@@ -37,7 +37,6 @@ func folderHandler(path string) http.Handler {
 
 func redirectTo(prefix, path string) http.Handler {
 	url := fmt.Sprintf("/%s%s", prefix, path)
-	log.Printf("Redirect to: %s", url)
 	return http.RedirectHandler(url, http.StatusMovedPermanently)
 }
 
@@ -129,5 +128,35 @@ func boxAdditionalTask(boxName string) http.HandlerFunc {
 
 		// tpl.ExecuteTemplate(os.Stdout, "base", context)
 		tpl.ExecuteTemplate(w, "base", context)
+	}
+}
+
+func homeHandler(w http.ResponseWriter, r *http.Request) {
+	log.Print("Processing home request")
+	context := struct {
+		GtmID string
+	}{
+		GtmID: "",
+	}
+	files := []string{
+		"./templates/base.html",
+		"./templates/views/header.html",
+		"./templates/views/main.html",
+		"./templates/views/feedback.html",
+		"./templates/views/footer.html",
+	}
+
+	tpl, err := template.ParseFiles(files...)
+	if !check(err, w) {
+		log.Print(err.Error())
+		return
+	}
+
+	// err = tpl.ExecuteTemplate(os.Stdout, "base", context)
+
+	err = tpl.ExecuteTemplate(w, "base", context)
+	if !check(err, w) {
+		log.Print(err.Error())
+		return
 	}
 }

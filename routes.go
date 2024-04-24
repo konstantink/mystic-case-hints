@@ -50,4 +50,6 @@ func initRoutes() {
 	initRedirectHandlers()
 	initHandlers("/hints", boxHints)
 	initHandlers("/additional-task", boxAdditionalTask)
+
+	http.HandleFunc("/", homeHandler)
 }
