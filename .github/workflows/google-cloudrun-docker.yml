@@ -50,9 +50,9 @@ on:
 
 env:
   PROJECT_ID: mystic-case-hints # TODO: update Google Cloud project id
-  GAR_LOCATION: europe # TODO: update Artifact Registry location
+  GAR_LOCATION: europe-west2 # TODO: update Artifact Registry location
   SERVICE: mystic-case # TODO: update Cloud Run service name
-  REGION: eu-west-1 # TODO: update Cloud Run service region
+  REGION: eu-west-2 # TODO: update Cloud Run service region
 
 jobs:
   deploy:
