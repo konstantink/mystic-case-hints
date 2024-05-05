@@ -13,7 +13,7 @@ apk update
 apk add gcc libc-dev
 EOF
 
-COPY ./go.mod /code/
+COPY ./go.mod ./go.sum /code/
 
 RUN --mount=type=cache,target=/go/pkg/mod/cache \
     go mod download
