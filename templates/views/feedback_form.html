@@ -1,7 +1,10 @@
 {{define "feedback_form"}}
 
-    <div class="container flex flex-col text-mc-purple mb-14">
-        <form hx-post="/api/v1/htmx/feedback">
+    <div class="container flex flex-col text-mc-purple mb-14 relative">
+        <div id="feedback-form-response"></div>
+
+        <form hx-post="/api/v1/htmx/feedback" hx-target="#feedback-form-response">
+            <input class="hidden" name="box_name" id="box_name" value="{{.BoxName}}" />
             <div class="container mb-8">
                 <div class="mb-3">
                     How difficult was the {{.BoxName}} box for you?
@@ -16,7 +19,7 @@
                         What did you like most in the {{.BoxName}} box?
                     </label>
                 </div>
-                <div class="form-contro">
+                <div class="form-control">
                     <textarea class="border-3 focus-visible:outline-none focus-visible:drop-shadow-black focus-visible:drop-shadow-xl focus-visible:ring-gray-200 rounded-2xl focus-visible:border-gray-200 p-2 w-full h-32" name="like_most" id="like_most"></textarea>
                 </div>
             </div>
@@ -26,7 +29,7 @@
                         What was your reason to order the {{.BoxName}} box?
                     </label>
                 </div>
-                <div class="form-contro">
+                <div class="form-control">
                     <textarea
                         class="border-3 focus-visible:outline-none focus-visible:drop-shadow-black focus-visible:drop-shadow-xl focus-visible:ring-gray-200 rounded-2xl focus-visible:border-gray-200 p-2 w-full h-32 placeholder:text-mc-light-purple"
                         name="reason_to_buy"
@@ -92,6 +95,25 @@
     <div class="radio xl:mr-6 last:xl:mr-0 mb-4 last:mb-0">
         <input id="next-box-yes" name="next_box" type="radio" value="yes" required>
         <label for="next-box-yes" class="radio-label">I'm interested</label>
+    </div>
+
+{{end}}
+
+{{define "thank_you"}}
+
+    <div class="container h-full w-full absolute">
+        <div class="absolute h-full w-full bg-white opacity-90"></div>
+        <div class="container h-full w-full flex flex-col justify-center items-center relative">
+            <div class="check mb-12">
+                <svg width="120" height="120" viewBox="0 0 32 32" >
+                    <path class="my-circle" d="M 16 1 A 9 9 0 0 0 16 31 A 9 9 0 0 0 16 1" />
+                    <path class="my-check tick-in-animation" d="M 16 31 A 15 15 2 1 0 2 11 L 14 26 L 26 7" />
+                </svg>
+            </div>
+            <span class="text-mc-purple text-2xl font-bold tracking-wider text-center">
+                Thank you for your feedback!
+            </span>
+        </div>
     </div>
 
 {{end}}

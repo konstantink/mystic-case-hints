@@ -48,14 +48,87 @@
     @apply before:w-6 before:h-6 flex before:mr-2 flex-row items-center;
     @apply before:border-3 before:border-gray-300;
     @apply before:transition-all before:ease-in-out before:duration-200;
+    @apply before:z-[-1];
 }
 
 .radio input[type="radio"]:checked + .radio-label {
     @apply before:rounded-full before:relative before:bg-mc-light-green before:border-mc-light-green;
     @apply before:shadow-[inset_0_0_0_4px_#fff];
+    @apply before:z-[-1];
 }
 
 .mc-bullet{
     @apply pl-8;
     @apply before:bg-[url('/images/bullet.svg')] before:bg-no-repeat before:absolute before:w-6 before:h-6 before:left-0;
+}
+
+.tick-animation {
+    animation: tick 5s ease forwards infinite;
+}
+
+.tick-in-animation {
+    animation: tick-in 600ms linear forwards;
+}
+
+.circle {
+    stroke: #B3D138;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    fill: none;
+}
+
+.my-check {
+    fill: none;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    stroke: #C7E840;
+}
+
+.my-circle {
+    stroke: #B3D138;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    fill: none;
+}
+
+/* .tick-animation path {
+    @apply stroke-mc-light-green;
+} */
+  
+@keyframes tick-in{
+    0% {
+        stroke-dasharray: 10 100;
+    }
+    /* 30% {
+        stroke-dasharray: 32 100;
+        stroke-dashoffset: -10;
+    } */
+    /* 60% {
+        stroke-dashoffset: -50;
+    } */
+    80% {
+        stroke-dasharray: 50 100;
+        stroke-dashoffset: -75;
+    }
+    100% {
+        stroke-dasharray: 36 100;
+        stroke-dashoffset: -70;
+        /* stroke-width: 2px; */
+        stroke: #B3D138;
+    }
+}
+
+@keyframes tick {
+    0% {
+        stroke-dashoffset: 200; /* Length of the path (adjust if needed) */
+        stroke-dasharray: 200;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
 }

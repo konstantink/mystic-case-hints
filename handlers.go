@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"html/template"
@@ -158,5 +159,56 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	if !check(err, w) {
 		log.Print(err.Error())
 		return
+	}
+}
+
+const emailTemplate = `
+<p>Hello there,</p>
+
+<p>General Kenobi here. Somebody has left a feedback for the %s box. Here are the answers:
+<ul>
+        <li>Difficulty: %s</li>
+        <li>What liked most: %s</li>
+        <li>The reason to buy: %s</li>
+        <li>Buy next box: %s</li>
+</ul></p>
+
+<p>That's all for now.</p>
+
+<p>Have a nice day!</p>
+
+<p>Kind regards,<br/>
+Your mystic-case.co.uk</p>
+`
+
+func feedbackHandler(ctx context.Context) http.HandlerFunc {
+	var emailChan chan Message
+
+	if emailChan = ctx.Value(ContextKey("emailChan")).(chan Message); emailChan == nil {
+		log.Fatal("email channel is not set up")
+	}
+
+	return func(w http.ResponseWriter, r *http.Request) {
+		r.ParseForm()
+		log.Print(r.Form)
+
+		message := Message{r.Form["box_name"][0], []byte(fmt.Sprintf(emailTemplate,
+			r.Form["box_name"][0], r.Form["difficulty"][0], r.Form["like_most"][0], r.Form["reason_to_buy"][0], r.Form["next_box"][0]))}
+
+		emailChan <- message
+
+		tpl, err := template.ParseFiles("./templates/views/feedback_form.html")
+		if !check(err, w) {
+			log.Print(err.Error())
+			return
+		}
+
+		// err = tpl.ExecuteTemplate(os.Stdout, "base", context)
+
+		err = tpl.ExecuteTemplate(w, "thank_you", nil)
+		if !check(err, w) {
+			log.Print(err.Error())
+			return
+		}
 	}
 }

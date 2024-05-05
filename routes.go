@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 )
@@ -45,11 +46,12 @@ func initRedirectHandlers() {
 	}
 }
 
-func initRoutes() {
+func initRoutes(ctx context.Context) {
 	initSystemHandlers()
 	initRedirectHandlers()
 	initHandlers("/hints", boxHints)
 	initHandlers("/additional-task", boxAdditionalTask)
 
 	http.HandleFunc("/", homeHandler)
+	http.HandleFunc("/api/v1/htmx/feedback", feedbackHandler(ctx))
 }
