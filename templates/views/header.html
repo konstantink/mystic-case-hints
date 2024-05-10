@@ -2,12 +2,12 @@
 
     <header class="container mx-0 max-w-full bg-mc-purple">
         <div class="container">
-            <div class="grid sm:grid-cols-3 grid-cols-1 gap-4">
-                <div class="flex justify-center xl:px-4 px-2 py-4">
+            <div class="flex justify-between items-center relative">
+                <div class="md:container flex justify-center xl:px-4 pl-4 py-4">
                     <svg 
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
-                        class="lg:w-36 w-24 brightness-0 invert"
+                        class="lg:w-36 w-28 brightness-0 invert"
                         viewBox="0 0 145 103"
                         version="1.1"
                     >
@@ -26,25 +26,81 @@
                     </svg>
                 </div>
 
-                <div class="container flex justify-center items-center xl:px-4 px-2 py-4">
+                <div class="container hidden md:flex justify-center items-center xl:px-4 px-2 py-4">
                     <a href="https://online.mystic-case.co.uk" target="_blank" class="border-4 rounded-3xl border-mc-light-purple p-2">
                         <span class="text-xl text-white font-bold font-pangram uppercase hover:text-mc-yellow">Online case</span>
                     </a>
                 </div>
 
-                <div class="container flex justify-center items-center mx-auto py-4">
+                <div class="container hidden md:flex justify-center items-center mx-auto py-4">
                     {{template "social_media"}}
+                </div>
+
+                <div class="flex xs:pr-0 pr-4 md:hidden">
+                    <button class="border-white bg-white border cursor-pointer rounded-full button-menu" aria-controls="primary-navigation" aria-expanded="false">
+                        <svg class="menu-hamburger" viewBox="-5 -5 110 100" width="64" height="64">
+                            <path class="line" d="m 20 35 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70" />
+                        </svg>
+                    </button>
                 </div>
 
             </div>
         </div>
+
+        <div class="mobile-menu grid grid-cols-1 overflow-hidden absolute bg-mc-purple transition-all delay-100 duration-700 w-full h-0 [&>.social-media]:self-end [&>.social-media]:pb-10 z-20">
+            <!-- <div class="mobile-menu grid grid-cols-1 items-center justify-between absolute bg-mc-purple transition-all delay-100 duration-700 w-full h-0"> -->
+                <div class="flex justify-center self-center">
+                    <a href="https://online.mystic-case.co.uk" target="_blank" class="border-4 rounded-3xl border-mc-light-purple p-2">
+                        <span class="text-xl text-white font-bold font-pangram uppercase hover:text-mc-yellow">Online case</span>
+                    </a>
+                </div>
+
+                {{template "social_media"}}
+
+                <div class="absolute bg-white mix-blend-overlay rounded-full md:blur-5xl blur-4xl h-full w-full -z-10"></div>
+            <!-- </div> -->
+        </div>
+
     </header>
+
+    <script>
+        const button = document.querySelector(".button-menu");
+        // const menuWrapper = document.querySelector(".mobile-menu-wrapper");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const body = document.querySelector("body");
+
+        button.addEventListener("click", () => {
+            const currentState = button.getAttribute("data-state");
+
+            if (!currentState || currentState === "closed") {
+                button.setAttribute("data-state", "opened");
+                button.setAttribute("aria-expanded", "true");
+                body.classList.add("overflow-hidden");
+                if (mobileMenu.classList.contains("h-0")) {
+                    // menuWrapper.classList.remove("hidden");
+                    mobileMenu.classList.remove("h-0");
+                    mobileMenu.classList.add("h-[calc(100%-111.55px)]");
+                    // mobileMenu.classList.remove("h-0");
+                    // mobileMenu.classList.add("h-full");
+                }
+            } else {
+                button.setAttribute("data-state", "closed");
+                button.setAttribute("aria-expanded", "false");
+                // mobileMenu.classList.remove("h-full");
+                // mobileMenu.classList.add("h-0");
+                mobileMenu.classList.remove("h-[calc(100%-111.55px)]");
+                mobileMenu.classList.add("h-0");
+                // menuWrapper.classList.add("hidden");
+                body.classList.remove("overflow-hidden");
+            }
+        });
+    </script>
 
 {{end}}
 
 {{define "social_media"}}
 
-    <div class="flex justify-center xl:px-4 px-2 py-4">
+    <div class="social-media flex justify-center xl:px-4 px-2 py-4">
         <a class="last:mr-0 mr-4 lg:mr-8" href="https://www.facebook.com/mysticcase.fb/" target="_blank">
             <svg class="w-6 brightness-0 invert" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0">
                 <path d="M3.26784 11.2499V19.9999H7.28187V11.2499H10.2795L10.8585 7.62491H7.28187V5.27491C7.28187 4.28741 7.78362 3.32491 9.37895 3.32491H11V0.237408C11 0.237408 9.53333 -9.15527e-05 8.13099 -9.15527e-05C5.1848 -9.15527e-05 3.26784 1.72491 3.26784 4.86241V7.62491H0V11.2499H3.26784Z" fill="#3A3185"/>
