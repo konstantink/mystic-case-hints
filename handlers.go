@@ -212,3 +212,9 @@ func feedbackHandler(ctx context.Context) http.HandlerFunc {
 		}
 	}
 }
+
+func shopHandler(w http.ResponseWriter, r *http.Request) {
+	log.Print("shop request handler: redirecting to Etsy")
+	w.Header().Set("Location", "https://www.etsy.com/uk/shop/MysticCase") // Redirect to example.com
+	w.WriteHeader(http.StatusTemporaryRedirect)
+}

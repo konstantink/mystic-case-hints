@@ -39,9 +39,9 @@ RUN yarn build-css-prod
 
 FROM --platform=linux/amd64 alpine:3.17 AS final
 
-EXPOSE 8080
-
 WORKDIR /app
+
+EXPOSE 8080
 
 COPY --from=app_builder /code/bin/mc-hints /app/
 COPY static/ ./static
@@ -50,5 +50,9 @@ COPY images/ ./images
 COPY hints/ ./hints
 COPY additional_tasks/ ./additional_tasks
 COPY --from=styles_builder /styles/static/styles.css /app/static/
+
+RUN addgroup -S mysticcase && adduser -h /app -G mysticcase -s /bin/sh -S app
+RUN chown -R app:mysticcase /app
+USER app
 
 CMD ["/app/mc-hints"]

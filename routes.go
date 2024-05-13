@@ -44,6 +44,7 @@ func initRedirectHandlers() {
 		http.Handle(fmt.Sprintf("%s-hints", paths[i]), redirectTo("hints", paths[i]))
 		http.Handle(fmt.Sprintf("%s-additional-task", paths[i]), redirectTo("additional-task", paths[i]))
 	}
+
 }
 
 func initRoutes(ctx context.Context) {
@@ -53,5 +54,6 @@ func initRoutes(ctx context.Context) {
 	initHandlers("/additional-task", boxAdditionalTask)
 
 	http.HandleFunc("/", homeHandler)
+	http.HandleFunc("/shop", shopHandler)
 	http.HandleFunc("/api/v1/htmx/feedback", feedbackHandler(ctx))
 }
