@@ -56,7 +56,7 @@ func boxHints(boxName string) http.HandlerFunc {
 			Hints   []Level
 		}{
 			BoxName: boxName,
-			GtmID:   "",
+			GtmID:   GtmID,
 			Hints:   hints,
 		}
 		files := []string{
@@ -97,7 +97,7 @@ func boxAdditionalTask(boxName string) http.HandlerFunc {
 			Task    Task
 		}{
 			BoxName: boxName,
-			GtmID:   "",
+			GtmID:   GtmID,
 			Task:    task,
 		}
 		files := []string{
@@ -137,7 +137,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	context := struct {
 		GtmID string
 	}{
-		GtmID: "",
+		GtmID: GtmID,
 	}
 	files := []string{
 		"./templates/base.html",
