@@ -135,7 +135,8 @@ func boxAdditionalTask(boxName string) http.HandlerFunc {
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	log.Print("Processing home request")
 	context := struct {
-		GtmID string
+		GtmID     string
+		Feedbacks []string
 	}{
 		GtmID: GtmID,
 	}
@@ -147,13 +148,24 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 		"./templates/views/footer.html",
 	}
 
+	feedbackFiles, err := os.ReadDir("./images/reviews/")
+	if err != nil {
+		log.Print(err.Error())
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+
+	feedbacks := make([]string, 0, len(feedbackFiles))
+	for _, feedbackFile := range feedbackFiles {
+		feedbacks = append(feedbacks, feedbackFile.Name())
+	}
+	context.Feedbacks = feedbacks
+
 	tpl, err := template.ParseFiles(files...)
 	if !check(err, w) {
 		log.Print(err.Error())
 		return
 	}
-
-	// err = tpl.ExecuteTemplate(os.Stdout, "base", context)
 
 	err = tpl.ExecuteTemplate(w, "base", context)
 	if !check(err, w) {
